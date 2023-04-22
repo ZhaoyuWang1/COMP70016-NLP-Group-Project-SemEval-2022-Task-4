@@ -1,11 +1,4 @@
 # NLP Coursework 2023
-  
-## Project repository
 
-This repository should contain your project code (an uploaded .ipynb file is fine), your dev set predictions and your test set predictions.
-
-## Creating your prediction files
-
-Your dev set and test set predictions need to be named dev.txt and test.txt (see the examples provided). You should submit the predictions from your top performing model.
-
-As described in the coursework specification document, you will be required to submit a SHA1 key corresponding to the commit that you want to be submitted.                                                              
+##Description
+We used the Don’t Patronize Me! dataset andcorresponding labels to develop a Roberta-based model that detects patronizing and condescending language (PCL). PCL can have negative effects in various contexts, damaging relationships and trust. We employed data preprocessing and fine-tuning techniques to improve the model’s binary classification performance. Our model achieved a 0.61 F1 score on positive labels, surpassing the baseline RoBERTa model by 0.13 on the dev dataset.
